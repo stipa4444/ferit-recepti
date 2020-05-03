@@ -31,8 +31,8 @@ Specifikacije zadatka su sljedeće:
   * Borac koji ima veći postotak pobjede ima blagu prednost u simulaciji nad borcem koji ima manji postotak u sljedećem sistemu:
     * Ako razlika između postotaka pobjeda je manja od 10% između Borca s većim postotkom pobjeda u odnosu na drugog borca -> Borac ima 10% prednost u simulaciji nad borcem koji ima manji postotak
     * Ako razlika između postotaka pobjeda je veća od 10% između Borca s većim postotkom pobjeda u odnosu na drugog borca -> Borac ima 20% prednost u simulaciji nad borcem koji ima manji postotak
-      * Primjer: Razlika postotka između Catersona i Firka iznosi 0,27% -> što znači da je ona manja od 10% i time Firko ima 10% prednost u simulaciji da će pobijediti
-      * *(POMOĆ: Prilikom implementiranja simulacije jedan od načina kako dodijeliti nekom prednost je da se odredi interval u kombinaciji s metodom Math.random() i Math.round() -> ako se radi o nasumičnom odabiru 50 50 koristio bi se interval vrijednosti od [0,0.49] za prvog, dok za drugog [0.5,0.99]; U navedenom primjeru Firko pobjeđuje u simulaciji ako se generira nasumični broj u intervalu [0,0.59] dok u intervalu [0.6,0.99] Caterson pobjeđuje)*
+  * Primjer: Razlika postotka između Catersona i Firka iznosi 0,27% -> što znači da je ona manja od 10% i time Firko ima 10% prednost u simulaciji da će pobijediti
+  * *(POMOĆ: Prilikom implementiranja simulacije jedan od načina kako dodijeliti nekom prednost je da se odredi interval u kombinaciji s metodom Math.random() i Math.round() -> ako se radi o nasumičnom odabiru 50 50 koristio bi se interval vrijednosti od [0,0.49] za prvog, dok za drugog [0.5,0.99]; U navedenom primjeru Firko pobjeđuje u simulaciji ako se generira nasumični broj u intervalu [0,0.59] dok u intervalu [0.6,0.99] Caterson pobjeđuje)*
 
 * Nakon borbe potrebno je ažurirati borčev data-atribut. Borcu koji je pobijedio treba povećati broj pobjeda, dok protivniku koji je izgubio treba dodati poraz. Nove vrijednosti moraju se uzeti u obzir prilikom pokretanja nove simulacije borbe.
  ![07](./docs/07.png)
