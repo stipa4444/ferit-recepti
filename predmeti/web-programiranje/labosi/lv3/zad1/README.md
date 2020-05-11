@@ -34,7 +34,7 @@ Specifikacije zadatka su sljedeće:
   * Primjer: Razlika postotka između Catersona i Firka iznosi 0,27% -> što znači da je ona manja od 10% i time Firko ima 10% prednost u simulaciji da će pobijediti
   * *(POMOĆ: Prilikom implementiranja simulacije jedan od načina kako dodijeliti nekom prednost je da se odredi interval u kombinaciji s metodom Math.random() i Math.round() -> ako se radi o nasumičnom odabiru 50 50 koristio bi se interval vrijednosti od [0,0.49] za prvog, dok za drugog [0.5,0.99]; U navedenom primjeru Firko pobjeđuje u simulaciji ako se generira nasumični broj u intervalu [0,0.59] dok u intervalu [0.6,0.99] Caterson pobjeđuje)*
 
-* Nakon borbe potrebno je ažurirati borčev data-atribut. Borcu koji je pobijedio treba povećati broj pobjeda, dok protivniku koji je izgubio treba dodati poraz. Nove vrijednosti moraju se uzeti u obzir prilikom pokretanja nove simulacije borbe.
+* Nakon borbe potrebno je ažurirati borčev data-atribut. Borcu koji je pobijedio treba povećati broj pobjeda, dok protivniku koji je izgubio treba dodati poraz. Nove vrijednosti moraju se uzeti u obzir prilikom pokretanja nove simulacije borbe. Potrebno je obratiti pozornost da se borac nalazi na obje strane selektora.
  ![07](./docs/07.png)
 
 *  (POMOĆ: jedan od kombinacija ažuriranja data atributa je pomoću metoda JSON.parse() ,JSON.stringify() kao i metode .setAttribute() za ponovno generiranje cijelog data-atributa unutar DOM-a.
