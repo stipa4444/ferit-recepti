@@ -1,9 +1,9 @@
 ### Zadatak
 
-Napomena: Html strukturu zadatka unutar **index.php** potrebno je promijeniti (ili možete koristiti svoju iz LV3 zadatka) kako bi sadržavala dinamički kod za prikaz i potrebno ju je dodatno izmijeniti kako bi odgovarala Vašoj PHP logici (temeljnu html strukturu liste boraca i gumbova poželjno je da ne mijenjate kako ne biste morali raditi velike izmjene  JavaScript logike).
+Napomena: Html strukturu zadatka unutar **index.php** potrebno je promijeniti kako bi sadržavala dinamički kod za prikaz i potrebno ju je dodatno izmijeniti kako bi odgovarala Vašoj PHP logici (temeljnu html strukturu liste boraca i gumbova poželjno je da ne mijenjate kako ne biste morali raditi velike izmjene  JavaScript logike).
 
 - JavaScript logiku iz LV3 potrebno je prenijeti i iskoristiti u ovome zadatku za već riješene funkcionalnosti (Simulacija borbe, odabir borca itd..).
-- Dozvoljeno je kreiranje vlastite PHP strukture, logike i datoteka po volji.
+- Dozvoljeno je kreiranje vlastite PHP strukture, logike, datoteka kao i MYSQL arhitekture (u vidu tablica i relacija) po volji.
 - Potrebno je koristiti OO PHP, ali nije nužno sve pisati objektno unutar aplikacije.
 - Potrebno je koristiti Interface-e i Namespace-ove (Primjer u LV5 predlošku) prilikom pisanja OO PHP-a.
 - Potrebno je dokumentirati i pisati komentare nad metodama i funkcijama unutar pojedinih dijelova koda(/** */) 
@@ -14,7 +14,6 @@ Napomena: Html strukturu zadatka unutar **index.php** potrebno je promijeniti (i
 
 **Osim postavljenog koda zadatka potrebno je podignuti rješenje zadatka na Heroku server ili na neki drugi od Cloud servisa (ili hostanog servera) po Vašoj volji.**
 
-<hr>
 
 #### Intro
 
@@ -50,3 +49,5 @@ Klijent je zadovoljan prijašnjom implementacijom aplikacije i želi proširiti 
     - *(Pomoć: Može se koristiti forma bez fetch-a koja će odvesti korisnika na novu stranicu s GET requestom (pr. update?id=vrijednost))*
   
     ![06](./docs/06.png)
+
+
