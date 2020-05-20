@@ -45,7 +45,7 @@ Klijent je zadovoljan prijašnjom implementacijom aplikacije i želi proširiti 
     ![04](./docs/04.png)
 
 
-5. Kada korisnik klikne na Edit gumb borca, potrebno je otvoriti mu novu stranicu gdje može izmijeniti podatke borca. Za razliku od kreiranja novog borca, može proizvoljno promijeniti određene podatke ali ih ne smije ostaviti praznima. Nakon klika na gumb za ažuriranje potrebno je vratiti korisnika na početni zaslon gdje će nakon što klikne borca unutar glavnog izbornika vidjeti njegove ažurirane podatke koji su dohvaćeni iz baze. Također korisnik ima mogućnost brisanja borca koji će obrisati navedenog borca iz tablice.
+5. Kada korisnik klikne na Edit gumb borca, potrebno je otvoriti mu novu stranicu gdje može izmijeniti podatke borca. Za razliku od kreiranja novog borca, može proizvoljno promijeniti određene podatke ali ih ne smije ostaviti praznima. Nakon klika na gumb za ažuriranje potrebno je vratiti korisnika na početni zaslon gdje će nakon što klikne na borca unutar glavnog izbornika vidjeti njegove ažurirane podatke koji su dohvaćeni iz baze. Također korisnik ima mogućnost brisanja borca koji će obrisati navedenog borca iz tablice.
     - *(Pomoć: Može se koristiti forma bez fetch-a koja će odvesti korisnika na novu stranicu s GET requestom (pr. update?id=vrijednost))*
   
     ![06](./docs/06.png)
