@@ -8,19 +8,10 @@ Materijali za video: https://youtu.be/kl3i-C3HYSE
 - https://docs.docker.com/get-docker/
 
 #### Linux (Debian - Mint, Ubuntu..)
-- sudo apt-get install apt-transport-https ca-certificates curl gnupg-agent software-properties-common
-- curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
-- sudo add-apt-repository "deb https://download.docker.com/linux/ubuntu disco stable"
-- sudo apt-get update
-- sudo apt-get install docker-ce
-- sudo usermod -aG docker `` `whoami` ``
-- sudo curl -L https://github.com/docker/compose/releases/download/1.25.0/docker-compose- `` `uname -s` ``- `` `uname -m` `` -o /usr/local/bin/docker-compose
-- sudo chmod +x /usr/local/bin/docker-compose
-
+- Upute na linku: [Ovdje](./docker-debian-setup.txt)
 
 #### Linux (ArchLinux i distribucije - Manjaro..)
 - sudo pacman -Sy docker docker-compose && sudo usermod -aG docker `` `whoami` ``
-
 
 Nakon instalacija napravite restart računala.
 
